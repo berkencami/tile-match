@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0b6ecb475b6deb4296b71f8c9fef356, type: 3}
+  m_Name: ItemPalette
+  m_EditorClassIdentifier: 
+  _items:
+  - _id: blue
+    _prefab: {fileID: 5725615588872810073, guid: aaa89b2657121db488e4df5e9b7ca522, type: 3}
+    _icon: {fileID: 2800000, guid: 98f62a6ded2e03244aaf856e3cb20aa7, type: 3}
+  - _id: brown
+    _prefab: {fileID: 1698746134828559733, guid: 7efe95df27175f54aa4c32c5413805d7, type: 3}
+    _icon: {fileID: 2800000, guid: aaf933fd0d7f4504dbf70c56f827d27c, type: 3}
+  - _id: cream
+    _prefab: {fileID: 7376809324981898488, guid: 64e99815758af504fb1db723dadf6566, type: 3}
+    _icon: {fileID: 2800000, guid: bbb210388f6e29c409346f5d605c9873, type: 3}
+  - _id: 4
+    _prefab: {fileID: 476313055475723095, guid: a1598375dce80064d94939d1a1e62e1e, type: 3}
+    _icon: {fileID: 2800000, guid: 74ef8ccc2947f914fbf7defdb237bb74, type: 3}
+  - _id: red
+    _prefab: {fileID: 4807165627042420062, guid: 6786c8d472c87cc448d1e444bb6acf5f, type: 3}
+    _icon: {fileID: 2800000, guid: e8f874713ba3ef243ad650ba6489c018, type: 3}
+  - _id: orange
+    _prefab: {fileID: 1427765446013037366, guid: b1d2d5838fb805443b4c793adae027f2, type: 3}
+    _icon: {fileID: 2800000, guid: 0e0b1b2a4dce7ae4c9e2233fabc4d450, type: 3}
+  - _id: pink
+    _prefab: {fileID: 3518226580111988950, guid: 4cd678a06ff3bea43b02b8228ddc94c5, type: 3}
+    _icon: {fileID: 2800000, guid: 2bd21b175b95d2b43bc0ad892944aac2, type: 3}
+  - _id: 8
+    _prefab: {fileID: 3953721910556553972, guid: 1e21c48fbeca3b34bb591bcccdc3b7ee, type: 3}
+    _icon: {fileID: 2800000, guid: 311db2dee1320a044babfb3b7b843580, type: 3}
+  - _id: 9
+    _prefab: {fileID: 4807165627042420062, guid: df610959dcfefdb449e974807c39e9e0, type: 3}
+    _icon: {fileID: 2800000, guid: 36554cceaa82dc64b8bc4e0789c6eac0, type: 3}
