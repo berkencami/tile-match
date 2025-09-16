@@ -40,7 +40,6 @@ namespace TileMatch.LevelEditor
                 return;
             }
 
-            // Layer sayısı kontrolü
             int newLayerCount = EditorGUILayout.IntSlider("Layer Count", layerCount.intValue, 1, 10);
             if (newLayerCount != layerCount.intValue)
             {
@@ -48,13 +47,11 @@ namespace TileMatch.LevelEditor
                 UpdateLayersList();
             }
 
-            // Layer seçimi
             selectedLayer = EditorGUILayout.Popup("Selected Layer", selectedLayer, 
                 Enumerable.Range(0, layerCount.intValue).Select(i => $"Layer {i + 1}").ToArray());
 
             EditorGUILayout.Space(10);
 
-            // Seçili layer'ın boyutlarını ayarlama
             if (selectedLayer < layers.arraySize)
             {
                 var currentLayer = layers.GetArrayElementAtIndex(selectedLayer);
